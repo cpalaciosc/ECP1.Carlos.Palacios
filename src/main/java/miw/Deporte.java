@@ -59,7 +59,7 @@ public class Deporte {
 	}	
 	
 	public String siglas(){
-		return this.nombre.substring(0, 2);
+		return this.nombre.substring(0, 3);
 	}
 	
 	public String presentar(){
