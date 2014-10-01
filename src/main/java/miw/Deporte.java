@@ -87,4 +87,8 @@ public class Deporte {
 		return "Deporte [id=" + id + ", nombre=" + nombre + ", descripion="
 				+ descripion + "]";
 	}
+	
+	public double medioTiempo(){
+		return this.tiempo/3;
+	}
 }
