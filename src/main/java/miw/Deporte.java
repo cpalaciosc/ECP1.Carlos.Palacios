@@ -81,4 +81,10 @@ public class Deporte {
 	public boolean isDeporteLargo(){
 		return this.tiempo > 60;
 	}
+	
+	@Override
+	public String toString() {
+		return "Deporte [id=" + id + ", nombre=" + nombre + ", descripion="
+				+ descripion + "]";
+	}
 }
