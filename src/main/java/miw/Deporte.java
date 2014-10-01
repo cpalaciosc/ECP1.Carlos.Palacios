@@ -73,4 +73,8 @@ public class Deporte {
 	public String presentar(){
 		return this.nombre+" "+this.descripion+" "+this.numeroJugadores;
 	}	
+	
+	public int duracion(){
+		return this.tiempo*2;
+	}
 }
