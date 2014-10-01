@@ -62,5 +62,9 @@ public class Deporte {
 		return this.nombre.substring(0, 2);
 	}
 	
+	public String presentar(){
+		return this.nombre+" "+this.descripion+" "+this.numeroJugadores;
+	}	
+	
 	
 }
