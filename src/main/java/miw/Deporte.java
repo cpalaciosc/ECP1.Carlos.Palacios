@@ -58,5 +58,9 @@ public class Deporte {
 		this.numeroJugadores = numeroJugadores;
 	}	
 	
+	public String siglas(){
+		return this.nombre.substring(0, 2);
+	}
+	
 	
 }
