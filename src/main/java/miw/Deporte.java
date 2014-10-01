@@ -10,4 +10,11 @@ public class Deporte {
 	public Deporte(){
 		
 	}	
+	
+	public Deporte(int id, String nombre, String descripion) {
+		super();
+		this.id = id;
+		this.nombre = nombre;
+		this.descripion = descripion;
+	}	
 }
