@@ -77,4 +77,8 @@ public class Deporte {
 	public int duracion(){
 		return this.tiempo*2;
 	}
+	
+	public boolean isDeporteLargo(){
+		return this.tiempo > 60;
+	}
 }
