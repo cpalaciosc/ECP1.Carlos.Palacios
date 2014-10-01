@@ -21,4 +21,8 @@ public class Deporte {
 	public String mayuscula(){
 		return this.nombre.toUpperCase();
 	}
+	
+	public String minuscula(){
+		return this.nombre.toLowerCase();
+	}
 }
