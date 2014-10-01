@@ -6,4 +6,8 @@ public class Deporte {
 	private String descripion;
 	private int tiempo;
 	private int numeroJugadores;
+	
+	public Deporte(){
+		
+	}	
 }
