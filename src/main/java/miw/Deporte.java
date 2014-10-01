@@ -17,4 +17,8 @@ public class Deporte {
 		this.nombre = nombre;
 		this.descripion = descripion;
 	}	
+	
+	public String mayuscula(){
+		return this.nombre.toUpperCase();
+	}
 }
