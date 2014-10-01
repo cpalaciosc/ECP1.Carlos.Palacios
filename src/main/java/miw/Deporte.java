@@ -67,11 +67,11 @@ public class Deporte {
 	}
 
 	public String siglas(){
-		return this.nombre.substring(0, 2);
+		return this.nombre.substring(0, 3);
 	}
 	
 	public String presentar(){
-		return this.nombre+" "+this.descripion+" "+this.numeroJugadores;
+		return this.nombre+" "+this.descripion+" "+this.numeroJugadores+this.siglas();
 	}	
 	
 	public int duracion(){
